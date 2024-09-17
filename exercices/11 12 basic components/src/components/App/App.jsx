@@ -1,7 +1,10 @@
 import React from 'react'
-import Header from './Header/Header.jsx'
-import Content from './Content/Content.jsx'
-import Total from './Total/Total.jsx'
+import Content from '../Content/Content.jsx'
+import Total from '../Total/Total.jsx'
+import Header from "../Header/Header.jsx";
+import './App.css'
+import '../../index.css'
+
 const App = () => {
     const course = 'Half Stack application development'
     const part1 = 'Fundamentals of React'
